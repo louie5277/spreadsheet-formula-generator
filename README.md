@@ -14,8 +14,8 @@ Usage:
 
 3. An output will be generated
 
-4. Copy formula into Excel
+4. Copy formula into Excel (WIP)
 
-5. View chat history
+5. View chat history (WIP)
 
-6. Export history into text document for tracking, documentation & sharing
+6. Export history into text document for tracking, documentation & sharing (WIP)
