@@ -1,21 +1,60 @@
-Project Name: Spreadsheet formula Generator
+# 📊 Spreadsheet Formula Generator
 
-Purpose:
-Help users generate Excel using english instructions, powered by an unofficial wrapper(g4f) & deepseek AI model.
+An AI-powered web app that generates Excel/Google Sheets formulas from natural language prompts. Built with React, Flask, and g4f — deployed with GitHub Pages and Render.
 
-Target Audience:
-Users who are new to excel and do not know how to write formulas
+![Demo Screenshot](https://i.postimg.cc/3xqX5rkZ/test.png)
 
-Usage:
+---
 
-1. Type a request in plain english (Eg. "Sum all sales from column B if region is East")
+## 🔍 Features
 
-2. Click a button to generate
+- ✅ Describe what you need in plain English
+- ✅ Get back clean, ready-to-copy Excel formulas
+- ✅ Regenerate if the formula isn’t accurate
+- ✅ Copy directly to clipboard
+- ✅ View full prompt/formula history
+- ✅ Export history to `.txt` for tracking or sharing
+- ✅ Fully free + serverless deployment
 
-3. An output will be generated
+---
 
-4. Copy formula into Excel
+## 🚀 Live Demo
 
-5. View chat history
+🌐 [spreadsheet-formula-generator](https://louie5277.github.io/spreadsheet-formula-generator/)
 
-6. Export history into text document for tracking, documentation & sharing
+---
+
+## 🛠 Tech Stack
+
+| Frontend | Backend | AI Engine |
+|----------|---------|-----------|
+| React + Axios | Flask (Python) | `g4f` (LLM proxy) |
+
+---
+
+## 🧪 Example Prompts
+
+> 💬 _“Sum all values in column A where column B is 'Approved'”_  
+> 💬 _“Average sales from D2 to D100 where region = East”_  
+> 💬 _“Divide column A by column B if C is 'Sales'”_
+
+---
+
+## 📦 Local Development
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/louie5277/spreadsheet-formula-generator
+cd spreadsheet-formula-generator
+
+# 2. Setup backend
+cd backend
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+
+# 3. Setup frontend (in another terminal)
+cd ../frontend
+npm install
+npm start
