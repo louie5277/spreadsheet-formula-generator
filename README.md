@@ -1,7 +1,7 @@
 Project Name: Spreadsheet formula Generator
 
 Purpose:
-Help users generate Excel using english instructions, powered by free AI model(g4f)
+Help users generate Excel using english instructions, powered by an unofficial wrapper(g4f) & deepseek AI model.
 
 Target Audience:
 Users who are new to excel and do not know how to write formulas
