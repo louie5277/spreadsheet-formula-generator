@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/spreadsheet-formula-generator/static/css/main.cda457f5.css",
-    "main.js": "/spreadsheet-formula-generator/static/js/main.a373833c.js",
+    "main.css": "/spreadsheet-formula-generator/static/css/main.4a54f415.css",
+    "main.js": "/spreadsheet-formula-generator/static/js/main.718cf343.js",
     "index.html": "/spreadsheet-formula-generator/index.html",
-    "main.cda457f5.css.map": "/spreadsheet-formula-generator/static/css/main.cda457f5.css.map",
-    "main.a373833c.js.map": "/spreadsheet-formula-generator/static/js/main.a373833c.js.map"
+    "main.4a54f415.css.map": "/spreadsheet-formula-generator/static/css/main.4a54f415.css.map",
+    "main.718cf343.js.map": "/spreadsheet-formula-generator/static/js/main.718cf343.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda457f5.css",
-    "static/js/main.a373833c.js"
+    "static/css/main.4a54f415.css",
+    "static/js/main.718cf343.js"
   ]
 }
