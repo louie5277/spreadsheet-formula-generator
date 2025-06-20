@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spreadsheet-formula-generator/static/css/main.14b5240a.css",
+    "main.js": "/spreadsheet-formula-generator/static/js/main.6d7b9db7.js",
+    "index.html": "/spreadsheet-formula-generator/index.html",
+    "main.14b5240a.css.map": "/spreadsheet-formula-generator/static/css/main.14b5240a.css.map",
+    "main.6d7b9db7.js.map": "/spreadsheet-formula-generator/static/js/main.6d7b9db7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b5240a.css",
+    "static/js/main.6d7b9db7.js"
+  ]
+}
